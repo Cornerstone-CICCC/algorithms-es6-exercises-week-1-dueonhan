@@ -9,3 +9,17 @@ A factorial is calculated by multiplying a number by all the numbers below it. F
 
 Save your final answer in a variable called solution and print it to the console.
 */
+
+
+
+
+function factorial(num) {
+    console.log(num)
+    let max = 1;
+    for (num; num > 0; num--) {
+        max *= num;
+    }
+    console.log("max:" + max);
+}
+
+console.log(factorial(5));
